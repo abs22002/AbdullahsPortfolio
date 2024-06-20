@@ -169,8 +169,8 @@
 
             </ul>
             <h2>Resume</h2>
-            <iframe src="resume.pdf" width="100%" height="600px"></iframe>
-            <a href="resume.pdf" download>Download Resume</a>
+            <iframe src="Abdullah Syed 1 CV.pdf" width="100%" height="600px"></iframe>
+            <a href="Abdullah Syed 1 CV.pdf" download>Download Resume</a>
         </section>
 
         <!-- Projects Section -->
