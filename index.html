@@ -156,7 +156,7 @@
         <section id="about" class="biography">
             <h1>About Me</h1>
             <p>Propelled by a lifelong fascination for computers and technology alongside an extensive degree in Information Technology. Highly skilled at resolving complex technical issues in a timely manner. I am energetic with outstanding customer service experience, and interpersonal, analytical, and critical thinking skills.</p>
-            <h2>Skills</h2>
+            <h2>Skills & Interests</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
