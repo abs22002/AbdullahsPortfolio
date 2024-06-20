@@ -161,7 +161,12 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>...</li>
+                <li>Basketball</li>
+                <li>Fishing</li>
+                <li>Reading</li>
+
+                                
+
             </ul>
             <h2>Resume</h2>
             <iframe src="resume.pdf" width="100%" height="600px"></iframe>
