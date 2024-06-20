@@ -149,7 +149,7 @@
         <section id="home" class="introduction">
             <h1>Welcome to My Portfolio</h1>
             <p>Welcome, my name is Abdullah Syed, an undergraduate student at York University.</p>
-            <img src="images/profile.jpg" alt="Profile Picture">
+            <img src="IMG_5592.JPG" alt="Profile Picture">
         </section>
 
         <!-- About Me Section -->
