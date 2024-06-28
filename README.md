@@ -136,8 +136,8 @@
         }
 
         .contact .social-media img {
-            width: 30px;
-            height: 30px;
+            width: 47px;
+            height: 47px;
         }
     </style>
 </head>
