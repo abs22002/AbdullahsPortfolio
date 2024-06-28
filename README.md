@@ -175,13 +175,13 @@
         <section id="projects" class="projects">
             <h1>My Projects</h1>
             <div class="project">
-                <img src="images/img01.jpg" alt="AI Healthcare Chat Bot">
+                <img src="img01.jpg" alt="AI Healthcare Chat Bot">
                 <h2>AI Healthcare Chat Bot</h2>
                 <p>This project involves the creation of an intelligent chat bot designed to provide healthcare advice and information. It uses natural language processing and machine learning to understand user queries and offer relevant responses.</p>
                 <a href="https://github.com/abs22002/ai-healthcare-chatbot">GitHub Repo</a>
             </div>
             <div class="project">
-                <img src="images/deteccion-senales-1200x600-1.webp" alt="Road Detection System">
+                <img src="deteccion-senales-1200x600-1.webp" alt="Road Detection System">
                 <h2>Road Detection System</h2>
                 <p>This project focuses on developing a system to detect road conditions using computer vision and deep learning techniques. It aims to improve autonomous vehicle navigation by identifying and classifying different road types and obstacles.</p>
                 <a href="https://github.com/abs22002/road-detection-system">GitHub Repo</a>
@@ -214,11 +214,12 @@
                 <button type="submit">Send</button>
             </form>
             <h2>Follow Me</h2>
-            <ul class="social-media">
-                <li><a href="https://twitter.com/abdullahsyed"><img src="images/x-logo-twitter-elon-musk_dezeen_2364_col_0.webp" alt="Twitter"></a></li>
-                <li><a href="https://https://www.linkedin.com/in/abdullah-syed-b62151316/"><img src="images/LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
-                <li><a href="https://github.com/abs22002"><img src="images/github-6980894_1280.webp" alt="GitHub"></a></li>
-            </ul>
+<ul class="social-media">
+    <li><a href="https://twitter.com/abdullahsyed"><img src="x-logo-twitter-elon-musk_dezeen_2364_col_0.webp" alt="Twitter"></a></li>
+    <li><a href="https://www.linkedin.com/in/abdullah-syed-b62151316/"><img src="LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
+    <li><a href="https://github.com/abs22002"><img src="github-6980894_1280.webp" alt="GitHub"></a></li>
+</ul>
+
         </section>
     </main>
 
