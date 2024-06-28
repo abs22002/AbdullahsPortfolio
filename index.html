@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah Syed's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
         /* General Styles */
         body {
@@ -142,12 +145,12 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -157,7 +160,7 @@
         <section id="home" class="introduction">
             <h1>Welcome to My Portfolio</h1>
             <p>Welcome, my name is Abdullah Syed, born in Pakistan, and currently an undergraduate student at York University.</p>
-            <img src="IMG_5592.JPG" alt="Profile Picture">
+            <img src="IMG_5592.JPG" alt="Profile Picture" class="img-fluid rounded-circle">
         </section>
 
         <!-- About Me Section -->
@@ -176,23 +179,23 @@
             </ul>
             <h2>Resume</h2>
             <iframe src="Abdullah Syed 1 CV.pdf" width="100%" height="600px"></iframe>
-            <a href="Abdullah Syed 1 CV.pdf" download>Download Resume</a>
+            <a href="Abdullah Syed 1 CV.pdf" download class="btn btn-primary">Download Resume</a>
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="projects">
             <h1>My Projects</h1>
             <div class="project">
-                <img src="img01.jpg" alt="AI Healthcare Chat Bot">
+                <img src="img01.jpg" alt="AI Healthcare Chat Bot" class="img-fluid">
                 <h2>AI Healthcare Chat Bot</h2>
                 <p>This project involves the creation of an intelligent chat bot designed to provide healthcare advice and information. It uses natural language processing and machine learning to understand user queries and offer relevant responses.</p>
-                <a href="https://github.com/abs22002/ai-healthcare-chatbot">GitHub Repo</a>
+                <a href="https://github.com/abs22002/ai-healthcare-chatbot" class="btn btn-primary">GitHub Repo</a>
             </div>
             <div class="project">
-                <img src="deteccion-senales-1200x600-1.webp" alt="Road Detection System">
+                <img src="deteccion-senales-1200x600-1.webp" alt="Road Detection System" class="img-fluid">
                 <h2>Road Detection System</h2>
                 <p>This project focuses on developing a system to detect road conditions using computer vision and deep learning techniques. It aims to improve autonomous vehicle navigation by identifying and classifying different road types and obstacles.</p>
-                <a href="https://github.com/abs22002/road-detection-system">GitHub Repo</a>
+                <a href="https://github.com/abs22002/road-detection-system" class="btn btn-primary">GitHub Repo</a>
             </div>
             <!-- Add more projects as needed -->
         </section>
@@ -207,33 +210,39 @@
         <section id="contact" class="contact">
             <h1>Contact Me</h1>
             <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send</button>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
             </form>
             <h2>Follow Me</h2>
-<ul class="social-media">
-    <li><a href="https://twitter.com/abdullahsyed"><img src="x-logo-twitter-elon-musk_dezeen_2364_col_0.webp" alt="Twitter"></a></li>
-    <li><a href="https://www.linkedin.com/in/abdullah-syed-b62151316/"><img src="LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
-    <li><a href="https://github.com/abs22002"><img src="github-6980894_1280.webp" alt="GitHub"></a></li>
-</ul>
-
+            <ul class="social-media">
+                <li><a href="https://twitter.com/abdullahsyed"><img src="x-logo-twitter-elon-musk_dezeen_2364_col_0.webp" alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/abdullah-syed-b62151316/"><img src="LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
+                <li><a href="https://github.com/abs22002"><img src="github-6980894_1280.webp" alt="GitHub"></a></li>
+            </ul>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Abdullah Syed. All rights reserved.</p>
     </footer>
+
+    <!-- Bootstrap JS, optionally -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 </body>
 </html>
 
