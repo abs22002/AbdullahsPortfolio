@@ -292,7 +292,7 @@
 
         <!-- Blog Section -->
         <section id="blog" class="blog">
-            <h1>Blog</h1>
+            <h1>Abdullah's BLOG!!!</h1>
             <div id="blog-posts">
                 <!-- Blog posts will be inserted here by JavaScript -->
             </div>
