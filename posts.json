@@ -1,11 +1,11 @@
 [
     {
         "title": "Implementing Light/Dark Mode in a Portfolio Website",
-        "content": "To implement the light/dark mode switcher for the portfolio website, the process began by deciding on the placement of the toggle button..."
+        "content": "To implement the light/dark mode switcher for the portfolio website, the process began with deciding on the placement of the toggle button, which was added to the header for easy access on all pages. The button was designed using HTML and CSS to match the website’s style. JavaScript was then used to create the core functionality: detecting clicks on the toggle button and applying or removing a CSS class to the body element. This class controls the color scheme, switching between light mode with a light background and dark text, and dark mode with a dark background and light text. To ensure the theme persists across page loads, the script stores the user's preference in `localStorage`. Additional CSS rules were written to handle both light and dark themes, focusing on maintaining readability and visual coherence. Thorough testing was conducted to ensure the toggle worked seamlessly across different browsers and devices. This implementation enhances user experience by allowing customization of the website’s appearance. The process involved careful design choices to ensure both modes were visually appealing and accessible. Overall, the switcher improves usability and aesthetic appeal of the portfolio site."
     },
     {
-        "title": "Coming Soon",
-        "content": ""
+        "title": "Implementing Dynamic Blog Section in a Portfolio Website",
+        "content": "To implement the dynamic blog section in the portfolio website, the process began by adding a dedicated blog section to the HTML layout, where the blog posts would be displayed. A JSON file was created to store the blog posts, including details such as titles, dates, and content. JavaScript was then used to fetch this JSON data and dynamically generate HTML elements for each blog post. This involved writing a script that retrieves the blog data, loops through each post, and creates the necessary HTML structure. The generated content was then inserted into the blog section of the webpage. CSS styles were applied to ensure the blog posts matched the overall design of the website and were visually appealing. The implementation also included ensuring that the blog section was responsive and displayed correctly on various devices. Testing was performed to verify that the blog posts loaded correctly and that the design remained consistent across different screen sizes. This dynamic approach allows for easy updates and additions to the blog without altering the HTML structure. Overall, the dynamic blog section enhances the website by providing up-to-date content in a user-friendly format."
     }
 ]
 
