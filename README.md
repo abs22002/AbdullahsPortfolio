@@ -315,9 +315,9 @@
             </form>
             <h2>Connect with Me:</h2>
             <ul class="social-media">
-                <li><a href="https://github.com/AbdullahSyed"><img src="github_icon.png" alt="GitHub"></a></li>
-                <li><a href="https://www.linkedin.com/in/abdullahsyed"><img src="linkedin_icon.png" alt="LinkedIn"></a></li>
-                <li><a href="https://twitter.com/AbdullahSyed"><img src="twitter_icon.png" alt="Twitter"></a></li>
+                <li><a href="https://github.com/AbdullahSyed"><img src="github-6980894_1280.webp" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/abdullahsyed"><img src="LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
+                <li><a href="https://twitter.com/AbdullahSyed"><img src="x-logo-twitter-elon-musk_dezeen_2364_col_0.webp" alt="Twitter"></a></li>
                 <!-- Add more social media links if needed -->
             </ul>
         </section>
