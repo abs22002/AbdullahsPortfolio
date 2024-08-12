@@ -278,12 +278,14 @@
             <div class="project">
                 <img src="img01.jpg" alt="AI Healthcare Chat Bot" class="img-fluid">
                 <h2>AI Healthcare Chat Bot</h2>
-                <p>Developed an AI-powered chatbot to assist patients with healthcare-related queries. Implemented natural language processing to provide accurate and timely responses.</p>
+                <p>This project involves the creation of an intelligent chat bot designed to provide healthcare advice and information. It uses natural language processing and machine learning to understand user queries and offer relevant responses.</p>
+            <a href="https://github.com/abs22002/ai-healthcare-chatbot" class="btn btn-primary">GitHub Repo</a>
             </div>
             <div class="project">
-                <img src="img02.jpg" alt="Portfolio Website" class="img-fluid">
-                <h2>Portfolio Website</h2>
-                <p>Created a personal portfolio website to showcase my projects and skills. Included features such as a blog section, contact form, and theme switcher.</p>
+                <img src="deteccion-senales-1200x600-1.webp" alt="Road Detection System" class="img-fluid">
+                <h2>Road Detection System</h2>
+                <p>This project focuses on developing a system to detect road conditions using computer vision and deep learning techniques. It aims to improve autonomous vehicle navigation by identifying and classifying different road types and obstacles.</p>
+                <a href="https://github.com/abs22002/road-detection-system" class="btn btn-primary">GitHub Repo</a>
             </div>
             <!-- Add more projects here -->
         </section>
