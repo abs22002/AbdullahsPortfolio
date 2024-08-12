@@ -18,10 +18,19 @@
             color: #101357; /* Mountain Shadow Blue */
         }
 
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #101357;
+            color: #f0f0f0;
+        }
+
         header {
             background-color: #101357; /* Mountain Shadow Blue */
             color: white;
             padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         nav ul {
@@ -63,12 +72,35 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        /* Dark Mode Section Backgrounds */
+        body.dark-mode .introduction, 
+        body.dark-mode .biography, 
+        body.dark-mode .projects, 
+        body.dark-mode .contact {
+            background-color: #2e2e2e;
+        }
+
         .introduction h1, .biography h1, .projects h1, .contact h1 {
             color: #fea49f; /* Old Makeup Pink */
         }
 
         .introduction p, .biography p, .projects p, .contact p {
             color: #101357; /* Mountain Shadow Blue */
+        }
+
+        /* Dark Mode Text Colors */
+        body.dark-mode .introduction h1, 
+        body.dark-mode .biography h1, 
+        body.dark-mode .projects h1, 
+        body.dark-mode .contact h1 {
+            color: #fea49f; /* Old Makeup Pink */
+        }
+
+        body.dark-mode .introduction p, 
+        body.dark-mode .biography p, 
+        body.dark-mode .projects p, 
+        body.dark-mode .contact p {
+            color: #f0f0f0; /* Light Text for Dark Mode */
         }
 
         .introduction img, .project img {
@@ -86,15 +118,18 @@
             background-color: #e8f5f5; /* Light Blue background for projects */
         }
 
+        /* Dark Mode Project Background */
+        body.dark-mode .projects .project {
+            background-color: #3e3e3e;
+        }
+
         .projects .project h2 {
             color: #fbaf08; /* Goldenrod Yellow */
         }
 
-        .projects .project img {
-            width: 20%; /* Adjust this value as needed */
-            height: auto; /* Maintains aspect ratio */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Dark Mode Project Text */
+        body.dark-mode .projects .project h2 {
+            color: #fbaf08; /* Goldenrod Yellow */
         }
 
         .contact form {
@@ -108,10 +143,22 @@
             font-weight: bold;
         }
 
+        /* Dark Mode Form Label Colors */
+        body.dark-mode .contact form label {
+            color: #f0f0f0;
+        }
+
         .contact form input, .contact form textarea {
             padding: 10px;
             border: 1px solid #00a0a0; /* Bluebell Light Blue */
             border-radius: 5px;
+        }
+
+        /* Dark Mode Form Fields */
+        body.dark-mode .contact form input, 
+        body.dark-mode .contact form textarea {
+            background-color: #4e4e4e;
+            color: #f0f0f0;
         }
 
         .contact form button {
@@ -139,6 +186,22 @@
             width: 47px;
             height: 47px;
         }
+
+        /* Toggle Button Styles */
+        .toggle-btn {
+            background-color: #fbaf08;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .toggle-btn:focus {
+            outline: none;
+        }
     </style>
 </head>
 
@@ -153,6 +216,7 @@
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <button class="toggle-btn" id="theme-toggle">Switch to Dark Mode</button>
     </header>
 
     <main>
@@ -241,8 +305,19 @@
         <p>&copy; 2024 Abdullah Syed. All rights reserved.</p>
     </footer>
 
-    <!-- Bootstrap JS, optionally -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- JavaScript to Toggle Light/Dark Mode -->
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Switch to Light Mode';
+            } else {
+                toggleButton.textContent = 'Switch to Dark Mode';
+            }
+        });
+    </script>
 </body>
 </html>
-
