@@ -31,6 +31,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensure header is above other content */
         }
 
         nav ul {
@@ -61,7 +65,7 @@
         }
 
         main {
-            padding: 20px;
+            padding: 80px 20px 20px; /* Added top padding to avoid content hiding behind fixed header */
         }
 
         .introduction, .biography, .projects, .contact {
@@ -279,7 +283,7 @@
                 <img src="img01.jpg" alt="AI Healthcare Chat Bot" class="img-fluid">
                 <h2>AI Healthcare Chat Bot</h2>
                 <p>This project involves the creation of an intelligent chat bot designed to provide healthcare advice and information. It uses natural language processing and machine learning to understand user queries and offer relevant responses.</p>
-            <a href="https://github.com/abs22002/ai-healthcare-chatbot" class="btn btn-primary">GitHub Repo</a>
+                <a href="https://github.com/abs22002/ai-healthcare-chatbot" class="btn btn-primary">GitHub Repo</a>
             </div>
             <div class="project">
                 <img src="deteccion-senales-1200x600-1.webp" alt="Road Detection System" class="img-fluid">
